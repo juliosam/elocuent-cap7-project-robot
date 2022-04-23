@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Project: A Robot</title>
+</head>
+<body>
+    <h1>Proyecto: Un Robot</h1>
+    <p>
+        Este capitulo es sobre un ejemplo practico que describe como programar un 
+        robot para hacer entegas dentro de un pequeño poblado que cuenta con 11 
+        puntos de entrega.
+    </p>
+    <p>
+        El primer paso es hacer un array de los caminos existentes entre dos puntos 
+        de entrega adyacentes, que se expresa con el nombre de ambos lugares, separados
+        por un guion. 
+    </p>
+    <p>
+        El segundo paso es construir un objeto que contenga las "aristas" del poblado, 
+        colocando a cada lugar como nombre de propiedad, y como valor un array que 
+        incluya los lugares que colindan con el primero.
+    </p>
+    <p>
+       El tercer paso es hacer una funcion que basado en la posicion actual del robot,
+       le indique a este ultimo a que lugar de entrega dirigirce a continuacion, y 
+       cada que llegue a un punto recalcular en base a los puntos de entrega restantes. 
+       Esto se hace mediante una clase, cual constructor recibe el lugar actual y un array
+       de los paquetes restantes como argumentos. 
+    </p>
+    <p>
+       Despues se hace una funcion que simule las acciones del robot y que le marque 
+       cuando ha acabado el trabajo (done), que es al entregar todos los paquetes
+    </p>
+    <p>
+        Despues de esto se empieza a utilizar diferentes metodos para decidir la secuencia 
+        de entregas, empezando por al azar. Despues el mail truck rout y despues el 
+        pathfinding
+    </p>
+    
+   <script src="excercises-cap7.js"></script>
+</body>
+</html>
